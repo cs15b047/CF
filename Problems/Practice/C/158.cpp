@@ -1,3 +1,6 @@
+// D. Longest k-Good Segment  CF #Edu 5
+// Use 2 pointers--> for a given start location, calculate end of reqd segment
+//Use a window of unique elements to update end ptr when start ptr advances by 1
 #include <bits/stdc++.h>
 using namespace std ;
 typedef long long int ll ;

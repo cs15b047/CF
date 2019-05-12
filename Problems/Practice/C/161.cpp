@@ -1,3 +1,5 @@
+// D. Dasha and Very Difficult Problem  CF# 394 - 2
+// Arrange in increasing order of c's and assign b s.t. values of c just satisfy the condition
 #include <bits/stdc++.h>
 using namespace std ;
 typedef long long int ll ;
@@ -7,9 +9,6 @@ int main(){
 	vector<ll> a(n),p(n),b(n),c(n),a_new(n);for(int i=0;i<n;i++)scanf("%lld",&a[i]);for(int i=0;i<n;i++)scanf("%lld",&p[i]);
 	for(int i=0;i<n;i++)a_new[p[i] - 1] = a[i];
 	vector<ll> pos_to_rank(n);for(int i=0;i<n;i++)pos_to_rank[i] = p[i] - 1;
-
-	// for(int i=0;i<n;i++)cout << a_new[i] << " ";cout << endl;
-	// for(int i=0;i<n;i++)cout << pos_to_rank[i] << " ";cout << endl;
 
 	int flag = 1;
 	for(int i=0;i<n;i++){

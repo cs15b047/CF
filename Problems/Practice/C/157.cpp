@@ -1,3 +1,8 @@
+// C. Ice Cave CF #301 2
+// BFS + Case checking
+// Do BFS to get from start to end if (start != end and end is cracked)
+// if (start != end end is intact) --> come to end and move to some nearby intact cell and then back
+// if (start = end) move to some nearby intact and come back
 #include <bits/stdc++.h>
 using namespace std ;
 typedef long long int ll ;

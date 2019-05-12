@@ -1,3 +1,5 @@
+// C. To Add or Not to Add  CF# 143 - 2
+// 1) sort  2)For a given location, calc (bin search) the start location from where you can start to convert
 #include <bits/stdc++.h>
 using namespace std ;
 typedef long long int ll ;

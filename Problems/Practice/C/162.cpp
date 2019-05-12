@@ -1,3 +1,5 @@
+// A. Nephren gives a riddle  CF# 449 - 1
+// Do recursion and take the branch depending on offset
 #include <bits/stdc++.h>
 using namespace std ;
 typedef long long int ll ;

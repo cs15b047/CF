@@ -1,3 +1,5 @@
+// B. Equivalent Strings CF# 313 - 1
+// Implement given recursion
 #include <bits/stdc++.h>
 using namespace std ;
 typedef long long int ll ;

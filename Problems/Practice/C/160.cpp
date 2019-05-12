@@ -1,3 +1,6 @@
+// C. Not Equal on a Segment CF # Edu 7
+// for each position, calculate nearest position to right with different element
+// for query : l,r check r with next(l).
 #include <bits/stdc++.h>
 using namespace std ;
 typedef long long int ll ;

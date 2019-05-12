@@ -1,3 +1,6 @@
+// A. Karen and Game CF # 419 - 1
+// Spot minimum entry in matrix and subtract that from all entries doing row/column subtractions
+// Once a 0 is found, all entries in its row/column can (if soln exist) be driven to 0 by column/ row subtractions respectively only
 #include <bits/stdc++.h>
 using namespace std ;
 typedef long long int ll ;

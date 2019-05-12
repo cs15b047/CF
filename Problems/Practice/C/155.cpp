@@ -1,3 +1,6 @@
+// B. Biridian Forest - CF # 192 - 1
+// Calc distance of each from exit --> BFS
+// dist(anyone) <= dist(me) <-->  caught
 #include <bits/stdc++.h>
 using namespace std ;
 typedef long long int ll ;

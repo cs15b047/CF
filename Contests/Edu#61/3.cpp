@@ -1,3 +1,5 @@
+// C. Painting the Fence  Edu #61
+// brute force over choosing 2 painters to be leff out and calc lost area considering possible intersections of left out painters
 #include <bits/stdc++.h>
 using namespace std ;
 

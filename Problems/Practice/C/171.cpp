@@ -1,3 +1,7 @@
+// C. Fountains  CF# 413 - (combined)
+// 3 cases --> all from one, all from other, 1 from each
+// 1 from each --> highest beauty in affordable cost
+// 2 from each --> Sort (cost, beauty) based on cost & take one by one and see possible options for the other using bin search on cost and calc prefix max of beauty on possible ones.
 #include <bits/stdc++.h>
 using namespace std ;
 typedef long long int ll ;

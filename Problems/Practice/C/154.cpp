@@ -1,3 +1,5 @@
+//D. Igor In the Museum CF # Edu 1
+// Basic BFS + Count all side nbhs of a point
 #include <bits/stdc++.h>
 using namespace std ;
 typedef long long int ll ;

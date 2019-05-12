@@ -1,3 +1,6 @@
+// B. Travel Card  CF # 8VC Final round
+// dp[i] = optimal cost till time = t[i]
+// at a given time calculate cost of all 3 options availabls using answer for prev times
 #include <bits/stdc++.h>
 using namespace std ;
 typedef long long int ll ;

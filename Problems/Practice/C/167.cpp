@@ -1,3 +1,5 @@
+// B. XK Segments  CF# 448 - 2
+// Sort array and for a given i, find j1 and j2 s.t. a[j1] and a[j2] alongwith satisfy condition by Binsearch
 #include <bits/stdc++.h>
 using namespace std ;
 typedef long long int ll ;

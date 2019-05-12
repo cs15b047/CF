@@ -1,3 +1,8 @@
+// C. Report CF #344
+//Idea: All the operations till the longest length one have no effect
+// extended : Find strictly increasing order of lengths from the last, and take that as the sequence of changes
+// Each of the operations work on elements which are either prefix or suffix of the previous selected range.
+// Keep moving remaining ele in normal/reversed order to result from last
 #include <bits/stdc++.h>
 using namespace std ;
 typedef long long int ll ;

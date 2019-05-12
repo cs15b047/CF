@@ -1,3 +1,6 @@
+//C. Vasya and Basketball CF # 281 - 2
+// Try setting d to each unique distance of throw combined from team 1 and 2
+// calc points of each team via binary search and take max of all
 #include <bits/stdc++.h>
 using namespace std ;
 typedef long long int ll ;

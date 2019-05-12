@@ -1,3 +1,6 @@
+// 489D - Unbearable Controversy of Being - CF# 277.5 - 2
+//O(NM) passes. for each node, check for every other node which nodes are connected to both first and second
+//#edgesFrom(i) computations are required for a node, Thus, #total computn = N * M
 #include <bits/stdc++.h>
 using namespace std ;
 typedef long long int ll ;
