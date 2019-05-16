@@ -1,3 +1,7 @@
+// C. Barcode  CF# 139 - 2
+// dp[column, color] = Cost of repainting till column from starting and painting it in "color"(black/white)
+// dp[column, color] = min(over c)(dp[column - c, 1 - color] + cost(column-c+1:column, color)) and x <= c <= y
+// Enforce [x, y] limit at starting with high cost
 #include <bits/stdc++.h>
 using namespace std ;
 typedef long long int ll ;

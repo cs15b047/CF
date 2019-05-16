@@ -1,3 +1,5 @@
+// A. Bmail Computer Network  CF #Mail Ru prctce
+// Simple traversal from node to root of tree
 #include <bits/stdc++.h>
 using namespace std ;
 typedef long long int ll ;

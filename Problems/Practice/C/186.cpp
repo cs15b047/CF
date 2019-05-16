@@ -1,3 +1,5 @@
+// B. High Load   CF# 423 -1
+// Graph = tree --> With k branches for root. To minmize ht, equal ht of branches = n / k. Adjust remaining nodes
 #include <bits/stdc++.h>
 using namespace std ;
 typedef long long int ll ;

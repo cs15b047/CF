@@ -1,3 +1,5 @@
+// D. Tree CF# 353 - 2
+// Take node closest to and just higher than current & if left of that node is not there, put it. Else put it at right extreme of that node 
 #include <bits/stdc++.h>
 using namespace std ;
 typedef long long int ll ;

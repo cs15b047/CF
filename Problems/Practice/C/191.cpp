@@ -1,3 +1,6 @@
+// D. Credit Card  CF# Edu 33 - 2
+// Keep range of amount that can be present with person by depositing in periods of checking. Keep mxm as d
+// If start of range is > d --> Not possible to do task
 #include <bits/stdc++.h>
 using namespace std ;
 typedef long long int ll ;

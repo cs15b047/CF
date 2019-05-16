@@ -1,3 +1,5 @@
+// D. Swaps in Permutation CF#Edu 14
+// Find connected components using the positions to swap as edges and arrange each component in descending ordeer for maximal permutation
 #include <bits/stdc++.h>
 using namespace std ;
 typedef long long int ll ;

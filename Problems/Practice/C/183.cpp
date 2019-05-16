@@ -1,3 +1,5 @@
+// 933A - A Twisty Movement CF# 462 - 1
+// 1* 2* 1* 2* is the form of the solution we require--> which is = to (1* 2*) (1* 2*) which is max(i,j)((ending at i) + (strting at j)) 
 #include <bits/stdc++.h>
 using namespace std ;
 typedef long long int ll ;

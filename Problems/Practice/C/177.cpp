@@ -1,3 +1,6 @@
+// C. Wilbur and Points  CF# 331 - 2
+// Draw lines with y - x = k and  assign indices to pts in increasing order of x from indices hving w = k 
+// Check for labelling to be valid by checking for every pt: pt to rght and top should have higher idx
 #include <bits/stdc++.h>
 using namespace std ;
 typedef long long int ll ;

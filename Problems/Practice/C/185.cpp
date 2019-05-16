@@ -1,3 +1,7 @@
+// 909C - Python Indentation  CF# 455 - 2
+// dp[i, j] = # Ways in which ith stmt ends in indent = j
+// For stmt : dp[i, j] = dp[i - 1, j - 1]
+// simple stmt: dp[i, j] = sum(k = j to n) dp[i - 1, k]
 #include <bits/stdc++.h>
 using namespace std ;
 typedef long long int ll ;

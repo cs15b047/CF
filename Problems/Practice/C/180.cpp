@@ -1,3 +1,6 @@
+// C. Pick Heroes  CF# Mail Ru round 3
+// Pick according to judge if he plays optimally, selecting heroes from pairs
+// Whenever chance comes --> Start picking higher one from pair heroes and after that start picking from normal ones in descending order
 #include <bits/stdc++.h>
 using namespace std ;
 typedef long long int ll ;

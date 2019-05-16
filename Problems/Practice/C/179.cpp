@@ -1,3 +1,5 @@
+// D. Xenia and Bit Operations  CF# 197 - 2
+// Traverse the path from node to parent and make recalculate those nodes
 #include <bits/stdc++.h>
 using namespace std ;
 typedef long long int ll ;
@@ -15,15 +17,6 @@ int main(){
 			else tree[i][j] = tree[i+1][2*j - 1] ^ tree[i+1][2*j] ;
 		}
 	}
-
-	// for(int i = n - 1;i >=0;i--){
-	// 	ll sz = (ll)pow(2,i);		
-	// 	for(int j = 1;j <= sz;j++){
-	// 		cout << tree[i][j] << " ";
-	// 	}
-	// 	cout << endl;
-	// }
-
 
 	for(int i=0;i<m;i++){
 		ll p,b; cin >> p >> b ;

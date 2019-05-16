@@ -1,3 +1,5 @@
+// D. Cycle in Graph  CF# 161 -2 
+// Normal DFS and check alongside if any visited node occurs when path from root has at least k + 1 nodes
 #include <bits/stdc++.h>
 using namespace std ;
 typedef long long int ll ;

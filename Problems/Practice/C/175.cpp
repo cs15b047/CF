@@ -1,3 +1,6 @@
+// F. Graph Without Long Directed Paths  CF#550 - 3
+//Node can't have both incoming & outgoing edges-> Equivalent to choosing (coloring) each node as source or sink
+// Ans: Color using bfs(or dfs) with 2 colors, if possible coloring should be possible with all adjacent diff
 #include <bits/stdc++.h>
 using namespace std ;
 typedef long long int ll ;

@@ -1,3 +1,6 @@
+// D. Timetable  CF# Edu 39 - 2
+// Time[n, k] = Min time in nth day with k skips allowed = min over all possible attended using sliding window
+// dp[n, k] = Min time till nth day with k skips allowed = min(over b) (dp[n - 1][k - b] + Time[n][b])
 #include <bits/stdc++.h>
 using namespace std ;
 typedef long long int ll ;

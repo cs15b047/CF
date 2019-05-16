@@ -1,3 +1,6 @@
+// C. 1-2-3  CF#EDu 29 - 2
+// Discover looping in states and count with help of that looping
+// Count properly : till start of looping, no. of loops and incomplete loop (if any)
 #include <bits/stdc++.h>
 using namespace std ;
 typedef long long int ll ;

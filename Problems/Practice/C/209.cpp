@@ -3,17 +3,27 @@ using namespace std ;
 typedef long long int ll ;
 
 int main(){
-	string str; cin >> str;
-	ll n = str.length();
-	if(n % 2 == 1){
-		string ans = "";
-		for(int i=0;i<(n+1)/2;i++)ans += "4";
-		for(int i=0;i<(n+1)/2;i++)ans += "7";
-	}
-	else{
-		for(int i=0;i<n;i++){
-			
+	vector<string> pth;pth.clear();
+	ll n; cin >> n;
+	for(int i=0;i<n;i++){
+		string str1, str2;
+		cin >> str1;
+		if(str1 == "cd"){
+			cin >> str2 ;
+			stringstream check(str2);string intmdt="";
+
+			if(str2[0] == '/')pth.clear();
+			while(getline(check, intmdt, '/')){
+				if(intmdt == "..")pth.pop_back();
+				else pth.push_back(intmdt);
+				// cout << intmdt << endl;
+			}
+		}
+		else if(str1 == "pwd"){
+			for(auto it:pth){
+				if(it != "")cout << "/" << it;
+			}
+			cout << "/" << endl;
 		}
 	}
-
 }

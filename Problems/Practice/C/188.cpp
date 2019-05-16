@@ -1,3 +1,5 @@
+// F1. Tree Cutting (Easy Version)  CF# 540 - 3
+// Root tree arbitrarily and Do DFS & answer(node -- parent(node)) = 1 if Red(ST(node)) == Blue(ST(Node)) or totRed -  Red(ST(node)) == totBlue - Blue(ST(Node))
 #include <bits/stdc++.h>
 using namespace std ;
 typedef long long int ll ;

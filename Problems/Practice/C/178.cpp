@@ -1,3 +1,5 @@
+//B. Basketball Team  CF# 83 - 1
+// 1 - ((select n - 1 from rest dept)/(select n - 1 from all dept))
 #include <bits/stdc++.h>
 using namespace std ;
 typedef long long int ll ;

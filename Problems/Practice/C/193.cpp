@@ -1,3 +1,5 @@
+// A. Partial Teacher  CF# Manthan 2011
+// Top sort graph formed by edges of comparison L,R. Handle = by eliminating those nodes by keeping map from multiple equal to a representative node
 #include <bits/stdc++.h>
 using namespace std ;
 typedef long long int ll ;

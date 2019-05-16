@@ -1,4 +1,6 @@
-// 
+// B. Forming Teams CF# 133 - 2
+// In graph created by enemy relnship, degree is at max 2--> Thus possible is only simple chain or ring(or isolated)
+// to allow bipartite, if odd cycle, remove 1 vtx and also balance for equal number of people
 #include <bits/stdc++.h>
 using namespace std ;
 typedef long long int ll ;
