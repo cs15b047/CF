@@ -1,3 +1,7 @@
+// B. Cards Sorting  CF# 424 - 1
+// 1 Round through deck : All cards of minm val are removed for sure. Some of 2nd minm can also get removed, but if all of 2nd minm get removed, start removing 3rd minm and so on....
+// Simulate this faster by keeping all positions for a given value and count iterations
+// Also count total removed till previous iteration to count total present in every iteration
 #include <bits/stdc++.h>
 using namespace std ;
 typedef long long int ll ;

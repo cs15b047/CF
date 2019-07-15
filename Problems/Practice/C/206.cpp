@@ -1,3 +1,5 @@
+// E. Wooden Fence  CF# 117 - 2
+// dp[length, ending_wood, orient] = Answer for fence length "length" ending in "ending_wood" with orientation "orient"
 #include <bits/stdc++.h>
 using namespace std ;
 typedef long long int ll ;

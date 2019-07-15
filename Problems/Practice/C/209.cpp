@@ -1,3 +1,5 @@
+// C. Cd and pwd commands CF# VK Cup Qual round 1
+// No idea. Just implement whatever is given
 #include <bits/stdc++.h>
 using namespace std ;
 typedef long long int ll ;

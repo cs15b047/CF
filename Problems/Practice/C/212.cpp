@@ -1,3 +1,8 @@
+// C. Present
+// 1. Binary Search over answer
+// 2. To check if a value is possible, collect all nodes which are lower than value.
+// We can start at leftmost node and get optimal soln (Idea: as any further left would be wasteful)
+// So, algo: calculate move startings at each place using moves required for a place and moves gotten from previous nodes using sliding window over previous nodes, tracking position
 #include <bits/stdc++.h>
 using namespace std ;
 typedef long long int ll ;

@@ -1,3 +1,6 @@
+//C. Epidemic in Monstropolis  CF# 378 - 2
+// Each one in 2nd list corresponds to a cts seg of elements in 1st list
+// Find mapping, if exists and put sequence of eliminating, if possible
 #include <bits/stdc++.h>
 using namespace std ;
 typedef long long int ll ;

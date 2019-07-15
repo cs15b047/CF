@@ -1,3 +1,7 @@
+// E. Let's Go Rolling! CF# 38 - 2
+// dp[i, 0/1] = Ending ith marble in unpinned/pinned state 
+// dp[i, 1] = min(dp[i - 1, 0], dp[i - 1, 1])
+// dp[i, 0] = min(over j)(dp[j, 1] + sum(k = i to j + 1)(dist(k to j))) .. Basically pick locn of prev pinned one
 #include <bits/stdc++.h>
 using namespace std ;
 typedef long long int ll ;

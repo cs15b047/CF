@@ -1,3 +1,5 @@
+// C. LionAge II  CF# Beta 66
+// DP[i, j, k] = Max answer for 1st i letters, using j changes and ending at letter k
 #include <bits/stdc++.h>
 using namespace std ;
 typedef long long int ll ;

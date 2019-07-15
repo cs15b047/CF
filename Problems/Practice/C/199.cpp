@@ -1,3 +1,5 @@
+// D. Bubble Sort Graph  CF# 198 - 2
+// Reqd permutn = LIS (arr). Soln is O(NlogN) LIS
 #include <bits/stdc++.h>
 using namespace std ;
 typedef long long int ll ;

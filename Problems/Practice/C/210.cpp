@@ -1,3 +1,6 @@
+// D. A and B and Interesting Substrings   CF# 294 - 2
+// Calc prefix sum of cost and separate out values for a letter (to use for checking ending prefix cost)
+// For a letter and each start position, use these count of ending values where (ending values = prefix value of position) to find matches
 #include <bits/stdc++.h>
 using namespace std ;
 typedef long long int ll ;

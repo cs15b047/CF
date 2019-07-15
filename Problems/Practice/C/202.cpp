@@ -1,3 +1,5 @@
+// 605B - Lazy Student CF# 335 - 1
+// Sort MST edges and non-MST edges, Put MST edges as 1-2-3-4-5.... and non-MST as 3-1, 4-1,4-2,.....
 #include <bits/stdc++.h>
 using namespace std ;
 typedef long long int ll ;

@@ -1,3 +1,5 @@
+// D. One-Dimensional Battle Ships  CF# Pi - 2
+// Calculate and update number of ships that can be present based on number and length of cts segments present
 #include <bits/stdc++.h>
 using namespace std ;
 typedef long long int ll ;

@@ -1,3 +1,5 @@
+// H. Phone Number  CF# (Random)
+// DP[i, j] = # Ways to make phone number of length i, ending in number j 
 #include <bits/stdc++.h>
 using namespace std ;
 typedef long long int ll ;

@@ -1,3 +1,6 @@
+// C. Petya and File System  CF# 61 - 2
+// Build tree of filesystem
+// Do DFS to count subfolders/ files in folders etc
 #include <bits/stdc++.h>
 using namespace std ;
 typedef long long int ll ;

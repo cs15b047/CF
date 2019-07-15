@@ -1,3 +1,5 @@
+// B. Password  CF# 93 - 1
+// Calculate LPS of whole string. Apply KMP on string using that lps, and check if matches are prefix & suffix both
 #include <bits/stdc++.h>
 using namespace std ;
 typedef long long int ll ;

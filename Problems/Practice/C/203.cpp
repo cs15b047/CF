@@ -1,3 +1,7 @@
+// C. Vladik and Memorable Trip   CF# 416 - 2
+// Read question carefully: Either all people go and in 1 segment , otherwise no one goes
+// dp[i] = Answer for 1st i people
+// Go in reverse order for start locn, and locn j is valid if for all cities from j to i, city[j], city[j + 1].. city[i] have extremes(extreme locns in array) located in this range itself
 #include <bits/stdc++.h>
 using namespace std ;
 typedef long long int ll ;

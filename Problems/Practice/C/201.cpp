@@ -1,3 +1,5 @@
+// B. Long Path  CF# 239 - 1
+// Going to (i + 1)th room once = (Go to ith room once (dp[i])) + (go from i to p[i] (1)) + (go from p[i] to i (dp[i] - dp[p[i]])) + (go from i to i + 1 (1))
 // soln seen
 #include <bits/stdc++.h>
 using namespace std ;
@@ -10,6 +12,5 @@ int main(){
 	for(int i=1;i<=n;i++){
 		dp[i + 1] = (dp[i] + 2 + dp[i] - dp[p[i]] + mod ) % mod;
 	}
-	// for(int i=1;i<=n;i++)cout << dp[i] <<" " ; cout << endl;
 	cout << dp[n + 1] << endl;
 }

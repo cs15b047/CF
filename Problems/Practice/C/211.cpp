@@ -1,3 +1,6 @@
+// D. Choosing Capital for Treeland  CF# 135 - 2
+// Arbitrarily root tree. If some vtx has to be capital, reds in rest of tree excluding root--node pth should be made green and greens in root --- node pth should be made red
+// Soln seen
 #include <bits/stdc++.h>
 using namespace std ;
 typedef long long int ll ;
