@@ -1,0 +1,11 @@
+873D	Merge Sortconstructive algorithms, divide and conquer	Submit Add to favourites	1800	 x1522
+1010C	Bordernumber theory	Submit Add to favourites	1800	 x3159
+1096D	Easy Problemdp	Submit Add to favourites	1800	 x3810
+1154E	Two Teamsdata structures, implementation, sortings	Submit Add to favourites	1800	 x3141
+1156B	Ugly Pairsdfs and similar, greedy, implementation, sortings, strings	Submit Add to favourites	1800	 x3615
+1177B	Digits Sequence (Hard Edition)binary search, divide and conquer, implementation	Submit Add to favourites	1800	 x1180
+1283E	New Year Partiesdp, greedy	Submit Add to favourites	1800	 x3218
+1292B	Aroma's Searchbrute force, constructive algorithms, geometry, greedy, implementation	Submit Add to favourites	1800	 x3624
+
+Unsolved: 873D: 37 min, 1010C: saw soln, 1283E : 36 min
+SOlved: 1096D: take lite, 1154E: 29 min, 1156B: 24 min, 1177B: 17 min, 1292B : 50min 
