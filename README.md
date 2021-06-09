@@ -1,0 +1,1 @@
+This is a collection of programming problems that I have solved on platforms like Codeforces and Codechef. Some of them are annotated with Problem numbers and a very short description of the solution idea.
